@@ -1,0 +1,884 @@
+/* custom inclusion of right, left and below tabs */
+
+.my-adv{
+    width: 111px;
+
+    position: absolute;
+    right: 8px;
+    top: 6px;
+}
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+    display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+    display: block;
+}
+
+.tabs-below > .nav-tabs {
+    border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+    margin-top: -1px;
+    margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+    border-top-color: #ddd;
+    border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+    border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+    float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+    min-width: 74px;
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs {
+    float: right;
+    margin-left: 19px;
+    border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+    margin-left: -1px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+    border-color: #ddd #ddd #ddd transparent;
+    *border-left-color: #ffffff;
+}
+
+
+.content-admin-part .nav-tabs > li.active > a,
+.content-admin-part .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border:none;
+}
+
+.content-admin-part  .tabs-left > .nav-tabs{
+    border: none;
+    width: 220px;
+}
+
+
+.content-admin-part {
+    margin: 40px;
+}
+
+.left-setting-part ul{
+    outline: 1px solid #EEEEEE;
+    background-color: #F5F5F5;
+}
+
+.left-setting-part  .active a{
+     background-color: #F5F5F5 !important;
+    color: #da297f !important;
+    font-weight: bold;
+}
+
+.content-admin-part  .tabs-left > .nav-tabs > li > a{
+    margin: 0;
+    font-size: 15px;
+    font-family: "LatoR";
+    color: #999999;
+}
+
+.content-admin-part h3{
+    font-size: 18px;
+    color: #da297f;
+    font-family: "LatoB";
+    margin-bottom: 15px;
+}
+
+.tab-content-part{
+    border-top:1px solid #eee;
+    padding: 10px 0;
+}
+
+.content-admin-part  .tab-content h2{
+    color:#000;
+    font-family: 'LatoB';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content-admin-part  .tabs-left li i{
+    float: right;
+    font-size: 20px;
+    visibility: hidden;
+
+}
+
+.content-admin-part  .tabs-left .active i{
+    visibility:visible;
+}
+
+.change-part-content .form-group{
+    text-align: right;
+}
+
+.change-part-content .form-group label{
+    color: #da297f;
+    font-size: 16px;
+    font-family: "LatoR";
+    padding-top: 10px;
+}
+
+.button-part-admin{
+    text-align: right;
+}
+
+.change-part-content input{
+    font-family: "LatoL";
+}
+
+
+
+.button-part-admin button{
+    padding: 10px 30px;
+    background-color: #C82983;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100000;
+    font-size: 22px;
+    font-family: "LatoLL";
+    transition: all 0.5s;
+    line-height: inherit;
+}
+
+.button-part-admin button:hover{
+    background-color: #8bc03e;
+    color: #fff;
+}
+
+
+.user-header-top {
+    background-color:#3E3E3E ;
+    padding: 15px 0;
+    border-bottom: 4px solid #C22984;
+}
+
+
+.user-header-top ul li{
+    display: inline-block;
+}
+
+
+
+
+.user-header-top ul li a{
+    padding: 15px 24px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "LatoR";
+    transition: all 0.5s;
+}
+
+.user-header-top ul li a:hover{
+    text-decoration: none;
+    background-color: #C22984;
+}
+
+.user-header-top ul li.active a{
+    background-color: #C22984;
+}
+
+.user-header-top ul li a i{
+    padding-right: 10px;
+}
+
+.payments-left-side h4{
+    color: #000000;
+    font-family: "LatoR";
+    margin-bottom: 20px;
+}
+
+
+.payments-left-side button{
+    padding: 10px 30px;
+    background-color: #8bc03e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100000;
+    font-size: 22px;
+    font-family: "LatoLL";
+    transition: all 0.5s;
+    line-height: inherit;
+}
+
+.payments-left-side button:hover{
+    background-color: #C82983;
+    color: #fff;
+}
+
+.payments-right-side .form-group{
+    text-align: right;
+}
+
+.payments-right-side .form-group label{
+    color: #da297f;
+    font-family: 'LatoR';
+    padding-top: 10px;
+}
+
+
+.messages-left-side button{
+    padding: 10px 30px;
+    background-color: #8bc03e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 100000;
+    font-size: 22px;
+    font-family: "LatoLL";
+    transition: all 0.5s;
+    line-height: inherit;
+}
+
+.messages-left-side button:hover{
+    background-color: #C82983;
+    color: #fff;
+}
+
+
+.dashboard-left-side label{
+    width: 100%;
+    color:#aec640;
+    font-family: "LatoL";
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+.dashboard-left-side label i{
+    background-color: #aec640;
+    color: #fff;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.dashboard-left-side label input{
+    float: right;
+    border: none;
+    border-bottom: 1px solid #E7E7E7;
+    color: #000;
+    font-size: 16px;
+    width: 180px;
+}
+
+.dashboard-left-side label input:focus{
+    outline: none;
+}
+
+.dashboard-left-side label small{
+    font-size: 11px;
+    color: #666666;
+    font-family: "LatoL";
+    margin-left: 5px;
+}
+
+
+
+.dashboard-right-side button{
+    padding: 10px 0 !important;
+    width: 100%;
+}
+
+.user-dashboard-all-content button{
+    padding: 10px 30px;
+    background-color: #8bc03e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 100000;
+    font-size: 18px;
+    font-family: "LatoLL";
+    transition: all 0.5s;
+    line-height: inherit;
+    margin-bottom: 10px;
+}
+
+.user-dashboard-all-content  button:hover{
+    background-color: #C82983;
+}
+
+.dashboard-last-readings,.dashboard-favorite-psychic{
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.user-reading-side ul li a{
+    background-color: #CACACA;
+    color: #fff;
+    font-family: "LatoB";
+    transition: all 0.4s;
+    padding: 10px 30px;
+}
+
+.user-reading-side ul li.active a{
+    background-color: #da297f !important;
+    color: #fff !important;
+    border: 1px solid transparent !important;
+}
+
+
+.user-reading-side ul li a:hover{
+    background-color: #da297f !important;
+    color: #fff !important;
+}
+
+.user-reading-side  ul.nav {
+    padding-left: 40px;
+    border: none;
+}
+
+.user-reading-side .tab-pane{
+    min-height: 300px;
+    background-color: #F6F6F6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px 30px;
+}
+
+.user-reading-side .tab-pane button{
+    padding: 10px 30px;
+    background-color: #8bc03e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 100000;
+    font-size: 18px;
+    font-family: "LatoLL";
+    transition: all 0.5s;
+    line-height: inherit;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.user-reading-side button:hover{
+    background-color: #C82983;
+}
+
+
+.user-reading-side .tab-pane h4{
+    font-family: 'LatoB';
+}
+
+.expert-page{
+    padding: 20px;
+    border-bottom: 4px solid #ADC640;
+    margin-bottom: 20px;
+    background-image: url('images/br.png');
+    background-size: 100% 100%;
+}
+
+.expert-image img{
+    width: 130px;
+    border-radius: 50%;
+    height: 130px;
+}
+
+
+.expert-image span{
+    display: inline-block;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: #9ec33f;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+
+
+.expert-all-desc span small{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    line-height: 14px;
+    position: absolute;
+    font-size: 12px;
+    top: -8px;
+    right: -18px;
+}
+
+
+
+.expert-all-desc h2{
+    color: #da297f;
+    font-family: "LatoR";
+    font-size: 16px;
+
+    margin-top: 10px;
+    position: relative;
+}
+
+.expert-all-desc h1{
+    font-size: 14px;
+    font-family: "LatoB";
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expert-all-desc h1 span{
+    font-size: 16px;
+    color: #db297f;
+    font-family: "LatoB";
+    float:right;
+}
+
+
+.expert-all-desc h1 span del{
+    color: #000;
+    margin-left: 2px;
+    font-size: 11px
+}
+
+.rev-stars{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.expert-all-desc ul{
+  
+}
+
+.expert-all-desc button i{
+    margin-right: 5px;
+}
+
+.expert-all-desc ul li{
+    display: inline-block;
+}
+
+.expert-all-desc ul li img{
+    width: 14px;
+    margin-right: 5px;
+    padding-bottom: 2px;
+}
+
+.expert-all-desc ul li p{
+    font-family: "LatoB";
+    font-size: 12px;
+    color: #000000;
+   margin: 15px 0;
+
+}
+
+.expert-all-desc h2 span{
+    font-size: 12px;
+    color: #a8c936;
+    float: right;
+    padding-top: 3px;
+    font-family: "LatoB";
+}
+
+.expert-all-desc ul li button{
+    font-family: "LatoR";
+    font-size: 14px;
+   
+    
+    background-color: #8bc03e;
+
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 11px;
+    transition: all 0.4s;
+    width: 145px
+}
+
+.expert-all-desc ul li button:hover{
+    background-color: #BB2886;
+}
+
+.expert-av-price{
+    text-align: right;
+}
+
+.expert-av-price span{
+    font-size: 12px;
+    color: #a8c936;
+    float: right;
+    padding-top: 3px;
+    font-family: "LatoB";
+    display: block;
+    width: 100%;
+}
+
+.right-stars {
+    width: 100px;
+
+    float: right;
+}
+
+
+
+
+.acardion-expert-page-content h1{
+    font-size: 18px;
+    color: #db297f;
+    font-family: "LatoB";
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-bottom:2px solid #db297f ;
+}
+
+.acardion-expert-page-content h1 span{
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.acardion-expert-page-content h1  i{
+    float: right;
+    width: 20px;
+    height: 15px;
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    /* padding-top: 1; */
+    margin-top: 3px;
+}
+
+.acardion-expert-page-content h1 i:before{
+    font-size: 14px;
+}
+
+.acardion-text{
+    display: none;
+}
+
+.acardion-text p{
+    padding: 10px ;
+    color: #888888;
+    line-height: 23px;
+    font-family: "LatoR";
+    font-size: 15px;
+}
+
+.acardion-expert-page-content{
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.expert-reviews h1{
+    font-size: 18px;
+    color: #db297f;
+    font-family: "LatoB";
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-bottom:2px solid #db297f ;
+    margin-bottom: 20px;
+}
+
+.rev-dates-text{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.rev-dates-text h2{
+    color: #db297f;
+    font-family: "LatoB";
+    font-size: 17px;
+}
+
+.rev-dates-text p{
+    color:#888888 ;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.rev-dates-text h3{
+    text-align: right;
+    color: #db297f;
+    font-size: 12px;
+    font-family: "LatoB";
+}
+
+.rev-dates-text img{
+    width: 80px;
+    float: left;
+}
+
+
+.experts-specialist {
+    margin: 30px 0;
+}
+
+.experts-specialist h1{
+    font-size: 18px;
+    color: #db297f;
+    font-family: "LatoB";
+    padding:0 ;
+    margin-bottom: 20px;
+}
+
+.experts-specialist p{
+    color: #000;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-family: 'LatoR';
+    margin-bottom: 10px;
+}
+
+.experts-specialist button{
+    background-color: #0D2954;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.experts-specialist button:hover{
+    background-color: #0D2954;
+    color: #fff;
+}
+
+.pysc-title {
+    font-size: 18px;
+    color: #da297f;
+    font-family: "LatoB";
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .user-header-top .container{
+
+    }
+    .user-header-top ul li a{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .user-header-top .container{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1014px) {
+    .user-header-top ul li a{
+        font-size: 13px;
+    }
+    .expert-all-desc ul li button{
+        width: 107px;
+        font-size: 11px;
+        padding: 9px 5px;
+    }
+    .expert-all-desc ul li p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .expert-page .rev-stars{
+        width: 80px;
+    }
+    .right-stars  img{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .user-header-top ul li a {
+        font-size: 12px;
+        padding: 15px 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .expert-image img{
+        width: 100px;
+        height: 100px;
+    }
+    .expert-image span{
+        width: 105px;
+        height: 105px;
+    }
+    .expert-av-price h3{
+        font-size: 13px;
+    }
+    .expert-all-desc ul li button{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+    .expert-all-desc ul li p{
+        font-size: 10px;
+    }
+    .button-expert{
+        text-align: center;
+    }
+    .button-expert li{
+        margin-bottom: 10px;
+    }
+    .user-header-top ul{
+        text-align: center;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .expert-all-desc h1{
+        font-size: 12px;
+    }
+    .content-expert-part .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .expert-page .col-xs-2{
+        padding: 0;
+    }
+    .expert-all-desc h1{
+        font-size: 12px;
+    }
+    .expert-all-desc h1 span{
+        font-size: 14px;
+    }
+    .right-stars{
+        width: 60px;
+    }
+    .expert-page{
+        padding: 20px 10px;
+    }
+    .expert-page .col-xs-9{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .expert-all-desc h5{
+        margin-top: 20px;
+    }
+    .expert-all-desc h1{
+        line-height: 19px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .expert-image span{
+        width: 75px;
+        height: 75px;
+    }
+    .expert-image span img{
+        width: 65px;
+        height: 65px;
+    }
+    .expert-page .col-xs-3{
+        padding-left: 0;
+        float: left;
+    }
+    .expert-page .col-xs-9{
+        float: none;
+        width: 100%;
+    }
+
+    .expert-all-desc h2{
+        font-size: 14px;
+    }
+    .expert-image span{
+        padding-left: 7px;
+        padding-top: 3px;
+    }
+    .expert-image span {
+        width: 60px;
+        height: 60px;
+    }
+    .expert-image span img {
+        width: 55px;
+        height: 55px;
+    }
+}
